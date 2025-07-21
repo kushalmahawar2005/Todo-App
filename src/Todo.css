@@ -1,0 +1,123 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: start;
+    height: 70px;
+    padding : 20px;
+    font-size: 25px;
+    background-color: #f6d7a7;
+    color : #333;
+}
+
+body {
+    background-color: #f6eabe;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 70px;
+    color : #333;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70px;
+    margin-top : 30px;
+    gap : 30px;
+}
+.section1 input {
+    width : 250px;
+    height: 30px;
+    border : 2px solid rgb(172, 153, 136);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.section1 button {
+    width: 100px;
+    height: 30px;
+    border : 2px solid rgb(172, 153, 136);
+    border-radius: 30px;
+}
+
+.section1 button:hover {
+    background-color: #9fbdbd;
+}
+
+hr {
+    width: 650px;
+    margin-left: 300px;
+    height: 3px;
+    background-color: #000000;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+h4 {
+        font-size: 20px;
+        color : #333;
+        font-weight: 600;
+        margin-bottom: 40px;
+}
+
+.Data {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    list-style :decimal-leading;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.task-item {
+  width: 650px;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.task-text {
+  flex: 1;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.btn1 {
+  width: 80px;
+  height: 25px;
+  border: 2px solid rgb(172, 153, 136);
+  border-radius: 30px;
+  font-size: 11px;
+}
+
+
+.item {
+    width : 300px;
+    height: 30px;
+    background-color: #000000;
+    color : white;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
